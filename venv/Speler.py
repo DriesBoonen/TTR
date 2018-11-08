@@ -1,3 +1,5 @@
+#import traincard
+
 class Speler:
     def __init__(self, id, name, age, color, pawnnr, missionscomp, currmissions, hand ):
         self.__id= id
@@ -10,6 +12,7 @@ class Speler:
 
         self.__hand = hand
 
+        self.missionscomp = 0;
 
     def set_name(self, name):
         self.__name = name
@@ -31,7 +34,9 @@ class Speler:
 
 
     """"
-    Samenwerken met treinkaarten? 
+    DIT MOET IN BEURT DENK IK? in methode 'extra_train_card'
+    
+    Samenwerken met treinkaarten? iets met een kaarten dek waaruit je uit kan 'trekken'
     --> zou er ongeveer zo kunnen uitzien:
     
     #add traincard to hand
