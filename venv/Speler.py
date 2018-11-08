@@ -1,5 +1,5 @@
 class Speler:
-    def __init__(self, id, name, age, color, pawnnr, missionscomp, currmissions ):
+    def __init__(self, id, name, age, color, pawnnr, missionscomp, currmissions, hand ):
         self.__id= id
         self.__name = name
         self.__age = age
@@ -8,6 +8,7 @@ class Speler:
         self.__missionscomp = missionscomp
         self.__currmissions = currmissions
 
+        self.__hand = hand
 
 
     def set_name(self, name):
@@ -33,13 +34,13 @@ class Speler:
     Samenwerken met treinkaarten? 
     --> zou er ongeveer zo kunnen uitzien:
     
-    #add card to hand
-        def addCardToHand(self, card):
+    #add traincard to hand
+        def addCardToHand(self, traincard):
             """adds a single card to hand
             assumes card is a valid choice
             card: String
             """
-            if card != None:
-                self.hand[card] += 1
+            if traincard != None:
+                self.hand[traincard] += 1
                 
         """
