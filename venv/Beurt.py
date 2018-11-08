@@ -1,7 +1,7 @@
 # Michiel
 
 class Beurt:
-    id  # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
+    id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
     # Constructor
     def __init__(self, playerid): # Welke argumenten zijn het beste? Kan ik instantie van klasse Speler meegeven als argument?
         id += 1
@@ -24,7 +24,7 @@ class Beurt:
         self.__playerid = newplayerid
 
     # Normal methods
-    def swap_mission(self):
+    def swap_mission(self, oldmission):
         # Code ruilMissie
 
     def extra_traincard(self):
@@ -32,3 +32,6 @@ class Beurt:
 
     def conquer_route(self):
         # Code routeInnemen
+
+    def check_completed_route(self):
+        # Code controleer of er een route voltooid is
