@@ -1,25 +1,27 @@
 # Michiel
 
 class Beurt:
-    id  # Does this work? Goal is to have "static variable" which is the same for all instances of Beurt, so that the id always increments by 1
+    id  # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
     # Constructor
-    def __init__(self, playerid):
+    def __init__(self, playerid): # Welke argumenten zijn het beste? Kan ik instantie van klasse Speler meegeven als argument?
         id += 1
-        self.__playerid = Speler.get_id
+        self.__playerid = playerid
         self.__id = id
+        print(id) # For debugging purposes
 
     # Getters
     def get_id(self):
-        #return self.
+        return self.__id
 
     def get_playerid(self):
-        #return
+        #return self.__playerid
 
     # Setters
-    def set_id(self):
-        # self. =
+    def set_id(self, newid):
+        self.__id = newid
 
-    def set_playerid(self):
+    def set_playerid(self, newplayerid):
+        self.__playerid = newplayerid
 
     # Normal methods
     def swap_mission(self):
