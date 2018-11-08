@@ -24,10 +24,15 @@ class GUI:
                          + str(self.posToMove + 1)
                          + " please enter your name: (Must be unique) "
                          )
+            age = raw_input("Player "
+                         + str(self.posToMove + 1)
+                         + " please enter your age: (Must be number) "
+                         )
             count += 1
 
+            Speler.set_age(age)
             Speler.set_name(name)
-
+            #ook nog CPU en leeftijd
 
     # hierna kaarten genereren?
     #       in samenwerking met cards?
