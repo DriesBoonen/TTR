@@ -10,27 +10,27 @@ class Route:
     #
     def get_color(self):
         return self.__color
-    def set_kleur(self, color):
+    def set_color(self, color):
         self.__color = color
 
-    def get_aantal_valkjes(self):
+    def get_nrOfBoxes(self):
         return self.__nrOfBoxes
-    def set_aantal_valkjes(self, nrOfBoxes):
+    def set_nrOfBoxes(self, nrOfBoxes):
         self.__nrOfBoxes = nrOfBoxes
 
-    def get_stad1(self):
+    def get_city1(self):
         return self.__city1
-    def set_stad1(self, stad1):
-        self.__stad1 = stad1
+    def set_city1(self, city1):
+        self.__city1 = city1
 
-    def get_stad2(self):
+    def get_city2(self):
         return self.__city2
-    def set_stad2(self, city2):
+    def set_city2(self, city2):
         self.__city2 = city2
 
-    def get_inIngenomen(self):
+    def get_isTaken(self):
         return self.__isTaken
-    def set_inIngenomen(self, isTaken):
+    def set_isTaken(self, isTaken):
         self.__isTaken = isTaken
 
 #mkjmlk
