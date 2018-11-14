@@ -4,6 +4,16 @@ import TrainCards
 import MissionCards
 import Route
 
+# TO DO: constructor van Speler: gegevens startscherm (naam, leeftijd) + kaarten genereren
+
+# TO DO: eerste beurt -> init, dit gebeurt in klasse Speler
+# TO DO: eerste beurt -> spelbord in GUI initialiseren
+# TO DO: eerste beurt -> vanuit GUI, initBoard alle routes definieren (hardcoded) + scorebord
+
+# TO DO: spel bezig
+# TO DO: Hoe missiekaarten controleren qua uitvoerbaarheid? Eerst knop onklikbaar zetten en op begin van beurt berekenen wat kan en wat niet kan
+# TO DO: route innemen -> eerst op GUI route aanklikken -> naar klasse Route om info over die route op te halen -> naar Beurt -> naar Speler: controle of speler genoeg kaarten heeft -> speler geeft go of no go aan Beurt (true/false)
+
 class Beurt:
     id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
     # Constructor
