@@ -35,7 +35,7 @@ class Beurt:
         return self.__id
 
     def get_playerid(self):
-        #return self.__playerid
+        return self.__playerid
 
     # Setters
     def set_id(self, newid):
@@ -47,7 +47,7 @@ class Beurt:
     # Normal methods
     def swap_mission(self, oldmission):
         # Code ruilMissie
-
+        #oldmission = MissionCards.MissionCards.
 
     def extra_traincard(self):
         # Code extraTreinkaart
@@ -64,3 +64,6 @@ class Beurt:
 
     def check_completed_route(self, routeid):
         # Code controleer of er een route voltooid is
+        # If (kaarten van Speler kloppen om route in te nemen en nrOfBoxes klopt)
+            # Route.isTakeb == true
+            # Route ergens bijhouden bij Speler of Route
