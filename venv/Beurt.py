@@ -1,4 +1,8 @@
 # Michiel
+import Speler
+import TrainCards
+import MissionCards
+import Route
 
 class Beurt:
     id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
@@ -29,9 +33,10 @@ class Beurt:
 
     def extra_traincard(self):
         # Code extraTreinkaart
+        # Functie extraCards(aantal kaarten die je moet bijkrijgen)
 
-    def conquer_route(self):
+    def conquer_route(self, routeid):
         # Code routeInnemen
 
-    def check_completed_route(self):
+    def check_completed_route(self, routeid):
         # Code controleer of er een route voltooid is
