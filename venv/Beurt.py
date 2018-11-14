@@ -16,6 +16,7 @@ import Route
 # TO DO: -> LET OP: meerdere routes tussen steden mogelijk!
 
 # NOTE: CPU-speler -> focussen op missiekaarten (wel 2 trekken) en altijd kortste route laten nemen
+# NOTE: voor routes 0 als ingenomen en 1-4 de spelers
 
 class Beurt:
     id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
