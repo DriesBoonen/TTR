@@ -13,6 +13,9 @@ import Route
 # TO DO: spel bezig
 # TO DO: Hoe missiekaarten controleren qua uitvoerbaarheid? Eerst knop onklikbaar zetten en op begin van beurt berekenen wat kan en wat niet kan
 # TO DO: route innemen -> eerst op GUI route aanklikken -> naar klasse Route om info over die route op te halen -> naar Beurt -> naar Speler: controle of speler genoeg kaarten heeft -> speler geeft go of no go aan Beurt (true/false)
+# TO DO: -> LET OP: meerdere routes tussen steden mogelijk!
+
+# NOTE: CPU-speler -> focussen op missiekaarten (wel 2 trekken) en altijd kortste route laten nemen
 
 class Beurt:
     id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
