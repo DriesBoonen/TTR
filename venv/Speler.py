@@ -1,18 +1,30 @@
-#import traincard
+#import TrainCards
 
 class Speler:
-    def __init__(self, id, name, age, color, pawnnr, missionscomp, currmissions, hand ):
-        self.__id= id
-        self.__name = name
-        self.__age = age
-        self.__color = color
-        self.__pawnnr = pawnnr
-        self.__missionscomp = missionscomp
-        self.__currmissions = currmissions
+    #constructor
+    def __init__(self, id, name, age, color):
 
-        self.__hand = hand
 
-        self.missionscomp = 0;
+        self.__id= id               #deze opbjecten krijgt hij door van de GUI? ofwa?
+        self.__name = name          #deze opbjecten krijgt hij door van de GUI? ofwa?
+        self.__age = age            #deze opbjecten krijgt hij door van de GUI? ofwa?
+        self.__color = color        #deze opbjecten krijgt hij door van de GUI? ofwa?
+        self.__pawnnr = 20
+        self.__missionscomp = 0
+
+        for i in range(6):
+            self.__hand = [TrainCards.dealCard()] #klopt dit? ELMER?
+
+        for i in range(2)
+            self.__currmissions = [MissionCards.dealCard()] #moet nog geschreven worden denk ik, ELMER?
+
+        #dit zou dan de constructor zijn om nieuwe spelers aan te maken?
+        #Je geeft dan id, name, age, color mee in het startscherm (GUI)
+        #pawnnr, missionscomplete, traincards en missioncards worden dan gegenereerd? (controleren of dit wel de juiste instanties zijn?)
+
+
+
+    #onderstaande is vrij overbodig denk ik
 
     def set_name(self, name):
         self.__name = name
