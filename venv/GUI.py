@@ -30,11 +30,14 @@ class GUI:
                          )
             count += 1
 
+            # Beter met constructor van speler werken? ID = count (+ 1?) -> Volledige spelers doorgeven (objecten)
+            # Of enkel info doorgeven en aanmaken van spelers (objecten) in constructor Beurt?
             Speler.set_age(age)
             Speler.set_name(name)
-            #ook nog CPU en leeftijd
+            #ook nog CPU en leeftijd: leeftijd nog in GUI en CPU-spelers aanmaken in Beurt (logica)?
 
-    # hierna kaarten genereren?
+            # Alle info (naam, leeftijd, kleur) doorgeven aan Beurt -> constructor Beurt maakt Speler en CPU-spelers?
+    # hierna kaarten genereren? Gebeurt in Beurt
     #       in samenwerking met cards?
 
 
