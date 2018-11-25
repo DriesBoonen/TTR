@@ -39,6 +39,7 @@ class GUI:
             # Alle info (naam, leeftijd, kleur) doorgeven aan Beurt -> constructor Beurt maakt Speler en CPU-spelers?
     # hierna kaarten genereren? Gebeurt in Beurt
     #       in samenwerking met cards?
+    # #NOTA VAN ELMER: Cards aanmaken--> self.deck = TrainCards.TrainCards() aantallen zijn reeds hardcoded (Traincards is bestand en classnaam)
 
 
 

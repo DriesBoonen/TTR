@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01109401-a04e-4388-9b39-5f78f881d3e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Beurt.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Beurt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/MissionCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/MissionCards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Speler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Speler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/TrainCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/TrainCards.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +13,108 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1732251382">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="7" value="1" />
+          <entry key="Python" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="py" value="37" />
+          <entry key="testtesthello" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="37" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3057" />
+          <entry key="testtesthello" value="38" />
+          <entry key="txt" value="261" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="299" />
+          <entry key="Python" value="3057" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="90381929">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="206" />
+          <entry key="txt" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Python" value="206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1032305322">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2685" />
+          <entry key="txt" value="145" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="145" />
+          <entry key="Python" value="2685" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="TTR" />
@@ -22,34 +124,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Beurt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+            <state relative-caret-position="534">
+              <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
               <folding>
-                <element signature="e#10#23#0" expanded="true" />
-                <marker date="1543010499854" expanded="true" signature="1388:1397" ph="..." />
-                <marker date="1543010499854" expanded="true" signature="1638:1647" ph="..." />
-                <marker date="1543010499854" expanded="true" signature="1798:1807" ph="..." />
-                <marker date="1543010499854" expanded="true" signature="2127:2136" ph="..." />
-                <marker date="1543010499854" expanded="true" signature="2295:2304" ph="..." />
+                <marker date="1543161329203" expanded="true" signature="1638:1647" ph="..." />
+                <marker date="1543161329203" expanded="true" signature="2485:2494" ph="..." />
+                <marker date="1543161329203" expanded="true" signature="2653:2662" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/CPUSpeler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/TrainCards.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -57,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="38" column="117" selection-start-line="38" selection-start-column="117" selection-end-line="38" selection-end-column="117" />
+            <state relative-caret-position="24">
+              <caret line="33" column="82" lean-forward="true" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -66,8 +147,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Speler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="268">
+              <caret line="58" column="130" selection-start-line="58" selection-start-column="130" selection-end-line="58" selection-end-column="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/TrainCards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/MissionCards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+              <folding>
+                <marker date="1543161109503" expanded="true" signature="43:44" ph="..." />
+                <marker date="1543161109503" expanded="true" signature="43:45" ph="..." />
+                <marker date="1543161109503" expanded="true" signature="43:49" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +179,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Route.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-1730">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -100,18 +204,20 @@
       <list>
         <option value="$PROJECT_DIR$/venv/TestMichiel.py" />
         <option value="$PROJECT_DIR$/testtesthello" />
-        <option value="$PROJECT_DIR$/venv/MissionCards.py" />
-        <option value="$PROJECT_DIR$/venv/Speler.py" />
-        <option value="$PROJECT_DIR$/venv/GUI.py" />
         <option value="$PROJECT_DIR$/venv/CPUSpeler.py" />
+        <option value="$PROJECT_DIR$/venv/MissionCards.py" />
+        <option value="$PROJECT_DIR$/venv/TrainCards.py" />
+        <option value="$PROJECT_DIR$/venv/GUI.py" />
+        <option value="$PROJECT_DIR$/venv/Speler.py" />
         <option value="$PROJECT_DIR$/venv/Beurt.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,6 +255,529 @@
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Beurt.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/GUI.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Speler.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/encodings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/UserDict.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/_abcoll.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/_weakrefset.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/abc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/codecs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/copy_reg.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/genericpath.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/linecache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/os.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/posixpath.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/easy_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__main__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/build_env.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/autocompletion.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/base_command.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/cmdoptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/main_parser.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/parser.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cli/status_codes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/check.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/completion.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/configuration.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/download.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/freeze.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/hash.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/help.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/list.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/search.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/show.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/uninstall.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/configuration.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/download.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/locations.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/candidate.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/format_control.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/link.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/check.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/freeze.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/prepare.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/pep425tags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/pyproject.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/constructors.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_file.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_set.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_tracker.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_uninstall.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/resolve.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/appdirs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/deprecation.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/encoding.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/filesystem.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/glibc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/hashes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/logging.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/misc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/outdated.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/packaging.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/setuptools_build.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/temp_dir.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/typing.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/ui.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/bazaar.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/git.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/mercurial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/subversion.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/appdirs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/_cmd.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/adapter.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/filewrapper.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/wrapper.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/__main__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/core.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/big5freq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/big5prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/chardistribution.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/charsetgroupprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/charsetprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/cli/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/cli/chardetect.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/codingstatemachine.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/cp949prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/enums.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/escprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/escsm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/eucjpprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euckrfreq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euckrprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euctwfreq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euctwprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/gb2312freq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/gb2312prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/hebrewprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/jisfreq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/jpcntx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langbulgarianmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langcyrillicmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langgreekmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langhebrewmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langhungarianmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langthaimodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langturkishmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/latin1prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/mbcharsetprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/mbcsgroupprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/mbcssm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/sbcharsetprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/sbcsgroupprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/sjisprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/universaldetector.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/utf8prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/initialise.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/misc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/shutil.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/tarfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/database.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/locators.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/metadata.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/resources.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distro.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_ihatexml.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_inputstream.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_tokenizer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/_base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/datrie.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/py.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/constants.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/whitespace.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/html5parser.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/codec.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/core.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/idnadata.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/intranges.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/package_data.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/uts46data.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/ipaddress.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/linklockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/pidlockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/symlinklockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/_version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/fallback.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/requirements.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/_in_process.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/check.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/colorlog.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/envbuild.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pep517/wrappers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/py31compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/bar.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/counter.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/helpers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/spinner.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pyparsing.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/core.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/parser.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/writer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__version__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/_internal_utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/adapters.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/api.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/certs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/cookies.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/help.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/hooks.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/sessions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/status_codes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/retrying.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/_collections.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/connection.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/connectionpool.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/appengine.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/securetransport.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/socks.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/fields.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/filepost.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/backports/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/backports/makefile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/ordered_dict.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/poolmanager.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/request.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/response.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/connection.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/queue.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/request.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/response.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/retry.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/ssl_.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/timeout.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/url.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/wait.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/labels.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/mklabels.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/tests.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/x_user_defined.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/appdirs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__about__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/requirements.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/specifiers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/pyparsing.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/extern/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/py31compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/__about__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/_compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/_structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/requirements.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/specifiers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/pyparsing.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/archive_util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/build_meta.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/alias.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_rpm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_wininst.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_clib.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_ext.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_py.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/develop.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/dist_info.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/easy_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/egg_info.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_egg_info.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_lib.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/py36compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/register.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/rotate.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/saveopts.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/sdist.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/setopt.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/test.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/config.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dep_util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/depends.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dist.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/extension.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/extern/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/glibc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/glob.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/launch.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/lib2to3_ex.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/monkey.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/msvc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/namespaces.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/package_index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/pep425tags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py27compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py31compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py33compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py36compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/sandbox.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/site-patch.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/ssl_support.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/unicode_utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/windows_support.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__main__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/bdist_wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/cli/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/cli/convert.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/cli/install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/cli/pack.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/cli/unpack.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/metadata.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pep425tags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pkginfo.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/wheelfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/stat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/types.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/warnings.pyc</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -161,7 +790,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.MissionCards">
     <configuration name="Beurt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TTR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,8 +812,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MissionCards" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TTR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/MissionCards.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Beurt" />
+      <item itemvalue="Python.MissionCards" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MissionCards" />
         <item itemvalue="Python.Beurt" />
       </list>
     </recent_temporary>
@@ -270,12 +922,12 @@
       <option name="project" value="LOCAL" />
       <updated>1542306844164</updated>
     </task>
-    <task id="LOCAL-00011" summary="Opkuis">
-      <created>1542307752528</created>
+    <task id="LOCAL-00011" summary="Missions geschreven tot nu toe (met tuples)&#10;Nota's aan Dries en Michiel hun code toegevoegd over de samenwerking met Missions/TrainCards">
+      <created>1543161379348</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1542307752528</updated>
+      <updated>1543161379348</updated>
     </task>
     <option name="localTasksCounter" value="12" />
     <servers />
@@ -291,10 +943,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.1963434" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.19568452" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.19316375" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.19316375" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,11 +954,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49761525" weight="0.41740674" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936407" weight="0.092362344" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49761525" weight="0.41814947" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49255952" visible="true" weight="0.31967214" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5063593" side_tool="true" weight="0.3202847" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50744045" side_tool="true" visible="true" weight="0.31967214" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.5610119" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,20 +1008,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit from Michiel" />
@@ -382,8 +1022,8 @@
     <MESSAGE value="Some notes and to do's" />
     <MESSAGE value="Aan het kloten in Beurt" />
     <MESSAGE value="Testen van to do-lijstje" />
-    <MESSAGE value="Opkuis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opkuis" />
+    <MESSAGE value="Missions geschreven tot nu toe (met tuples)&#10;Nota's aan Dries en Michiel hun code toegevoegd over de samenwerking met Missions/TrainCards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Missions geschreven tot nu toe (met tuples)&#10;Nota's aan Dries en Michiel hun code toegevoegd over de samenwerking met Missions/TrainCards" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -411,62 +1051,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/CPUSpeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/MissionCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Route.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="425">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <marker date="1543161109503" expanded="true" signature="43:44" ph="..." />
+            <marker date="1543161109503" expanded="true" signature="43:45" ph="..." />
+            <marker date="1543161109503" expanded="true" signature="43:49" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/TrainCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="38" column="117" selection-start-line="38" selection-start-column="117" selection-end-line="38" selection-end-column="117" />
+        <state relative-caret-position="24">
+          <caret line="33" column="82" lean-forward="true" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/CPUSpeler.py">
+    <entry file="file://$PROJECT_DIR$/venv/Route.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
+        <state relative-caret-position="-1730">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Speler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="268">
+          <caret line="58" column="130" selection-start-line="58" selection-start-column="130" selection-end-line="58" selection-end-column="130" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Beurt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+        <state relative-caret-position="534">
+          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
           <folding>
-            <element signature="e#10#23#0" expanded="true" />
-            <marker date="1543010499854" expanded="true" signature="1388:1397" ph="..." />
-            <marker date="1543010499854" expanded="true" signature="1638:1647" ph="..." />
-            <marker date="1543010499854" expanded="true" signature="1798:1807" ph="..." />
-            <marker date="1543010499854" expanded="true" signature="2127:2136" ph="..." />
-            <marker date="1543010499854" expanded="true" signature="2295:2304" ph="..." />
+            <marker date="1543161329203" expanded="true" signature="1638:1647" ph="..." />
+            <marker date="1543161329203" expanded="true" signature="2485:2494" ph="..." />
+            <marker date="1543161329203" expanded="true" signature="2653:2662" ph="..." />
           </folding>
         </state>
       </provider>

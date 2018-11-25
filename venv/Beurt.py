@@ -59,9 +59,11 @@ class Beurt:
         # Code extraTreinkaart
         # Functie extraCards(aantal kaarten die je moet bijkrijgen)
 
-        # Schudden van kaarten gebeurt in initialisatie?
+        # Schudden van kaarten gebeurt in initialisatie?  #NOTA VAN ELMER: Klopt, lijst krijgt .shuffle() bij init
 
         t = TrainCards.TrainCards.dealCard() # dealCard: returnt 1 kaart? Correcte methode? Instantie maken eerst?
+                                                #NOTA VAN ELMER: Best object bv "Deck" aanmaken --> self.deck = TrainCards.TrainCards()
+                                                #Dit initialiseert Traincards met een stapel, daarna doe je self.deck.dealCard()" natuurlijk in de speler zijn hand
         return t
 
     def conquer_route(self, routeid):
