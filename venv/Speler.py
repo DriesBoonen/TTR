@@ -14,9 +14,12 @@ class Speler:
 
         for i in range(6):
             self.__hand = [TrainCards.dealCard()] #klopt dit? ELMER?
+                                                    #Met collection.counter is beter denk ik: card=TrainCards.dealCard();self.hand[card] += 1; maar kdenk collection best nog initialiseren
+                                                    #Op die manier wordt elke kleur (dus "red" bv) als een aantal bijgehouden ipv een lijst
 
         for i in range(2)
             self.__currmissions = [MissionCards.dealCard()] #moet nog geschreven worden denk ik, ELMER?
+                                                            #Wordt aan gewerkt, moet nog uitvissen hoe ik die records maak
 
         #dit zou dan de constructor zijn om nieuwe spelers aan te maken?
         #Je geeft dan id, name, age, color mee in het startscherm (GUI)
@@ -50,6 +53,10 @@ class Speler:
     
     Samenwerken met treinkaarten? iets met een kaarten dek waaruit je uit kan 'trekken'
     --> zou er ongeveer zo kunnen uitzien:
+    
+    NOTA VAN ELMER: Dit is hoe ik bovenstaande opmerking bedoel
+    Deck is niet nodig, deze is enkel nodig als ge da deck aanvult, maar ge kunt mijne cardslist gewoon blijven poppen tot die leeg is
+    Het poppen van de lijst gebeurt in GUI denk ik of in beurt met "Deck.dealCard()", deck is dan het object dat je van traincards aanmaakte
     
     #add traincard to hand
         def addCardToHand(self, traincard):
