@@ -13,29 +13,53 @@ class GUI:
         self.__start = win
 
 
-    def initgame(self, start):
+    def start(self, start):
         # eerst namen ingeven: spelers aanmaken dus
 
-        selectedNames = []
-        count = 0
 
-        while count < 5:
-            name = raw_input("Player "
-                         + str(self.posToMove + 1)
-                         + " please enter your name: (Must be unique) "
-                         )
-            age = raw_input("Player "
-                         + str(self.posToMove + 1)
-                         + " please enter your age: (Must be number) "
-                         )
-            count += 1
 
-            Speler.set_age(age)
-            Speler.set_name(name)
-            #ook nog CPU en leeftijd
+        root = Tk()
+        frame = Frame(root)
+        frame.pack()
 
-    # hierna kaarten genereren?
-    #       in samenwerking met cards?
+        L1 = Label(root, text="Spelernaam")
+        L1.pack(side=LEFT)
+        E_spelernaam = Entry(root, bd=5)
+        E_spelernaam.pack(side=LEFT)
+
+        L2 = Label(root, text="CPU1")
+        L2.pack(side=LEFT)
+        E_cpu1 = Entry(root, bd=5)
+        E_cpu1.pack(side=LEFT)
+
+        L3 = Label(root, text="CPU2")
+        L3.pack(side=LEFT)
+        E_cpu2 = Entry(root, bd=5)
+        E_cpu2.pack(side=LEFT)
+
+        L4 = Label(root, text="CPU3")
+        L4.pack(side=LEFT)
+        E_cpu3 = Entry(root, bd=5)
+        E_cpu3.pack(side=LEFT)
+
+        root.mainloop()
+
+
+        #count = 0
+        #
+        # while count < 5:
+        #     name = raw_input("Player "
+        #                  + str(self.posToMove + 1)
+        #                  + " please enter your name: (Must be unique) "
+        #                  )
+        #     age = raw_input("Age "
+        #                  + str(self.posToMove + 1)
+        #                  + " please enter your age: (Must be number) "
+        #                  )
+        #     count += 1
+
+
+
 
 
 
