@@ -1,7 +1,7 @@
 import random
 
 
-class TrainCards:
+class TrainCards(object):
 
     def __init__(self):
         self.colors = ["black", "white", "green", "blue", "red", "yellow"]
@@ -18,7 +18,7 @@ class TrainCards:
     def dealCard(self):
 
         try:
-            return self.cards.pop()
+            return self.cards.pop() #Pop() removes the last item from the list and returns it
 
         except IndexError:
             #SPEL STOPPEN
@@ -27,5 +27,6 @@ class TrainCards:
 
     def cardsLeftover(self):
 
-        return len(self.cards)
+        return len(self.cards)      #Geeft weer hoeveel treinkaarten er nog zijn, kan bv tellertje geven op bord?
+                                    #Indien dit niet gewenst is, deze methode verwijderen
 

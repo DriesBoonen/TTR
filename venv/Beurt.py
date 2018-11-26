@@ -1,22 +1,38 @@
 # Michiel
 import Speler
+import CPUSpeler
+import GUI
 import TrainCards
 import MissionCards
 import Route
 
+# Iedere keer nieuwe instantie van Beurt? Of altijd de gegevens verversen?
 # TODO GUI triggert Beurt. Eerste keer Beurt (init): aanmaken spelers, verdelen van kaarten en aanmaken routes
 
+# Aantal kaarten bijhouden live bijhouden bij speler?
 
 class Beurt:
-    id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
+    # id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
 
     # Constructor
-    def __init__(self, playerid): # Welke argumenten zijn het beste? Kan ik instantie van klasse Speler meegeven als argument?
-        id += 1
-        self.__playerid = playerid
-        self.__id = id
-        print(id) # For debugging purposes
-        traincards = traincards()
+    def __init__(self, players): # Welke argumenten zijn het beste? List of array van spelers?
+        # id += 1
+
+        # TODO aanmaken spelers, verdelen van kaarten en aanmaken routes
+        # Iedere speler krijgt 2 missiekaarten en 4 treinkaarten
+
+        # Planning: eerst gewone speler aanmaken. Dan CPU-spelers: eerst kaarten genereren, dan toekennen bij aanmaken CPU-speler
+
+        # Speler aanmaken
+        player = Speler.Speler.__init__(passed_id, name, age, color)
+
+
+        # CPU-spelers aanmaken
+        while i < 5:
+            # Random kaarten generen
+            # Nieuwe CPU-speler aanmaken en kaarten toekennen via constructor?
+            cpu_player = CPUSpeler.CPUSpeler.__init__( #ONVOLLEDIG!!!!!!! )
+            i =+ 1
 
 
     # Getters
@@ -43,9 +59,11 @@ class Beurt:
         # Code extraTreinkaart
         # Functie extraCards(aantal kaarten die je moet bijkrijgen)
 
-        # Schudden van kaarten gebeurt in initialisatie?
+        # Schudden van kaarten gebeurt in initialisatie?  #NOTA VAN ELMER: Klopt, lijst krijgt .shuffle() bij init
 
         t = TrainCards.TrainCards.dealCard() # dealCard: returnt 1 kaart? Correcte methode? Instantie maken eerst?
+                                                #NOTA VAN ELMER: Best object bv "Deck" aanmaken --> self.deck = TrainCards.TrainCards()
+                                                #Dit initialiseert Traincards met een stapel, daarna doe je self.deck.dealCard()" natuurlijk in de speler zijn hand
         return t
 
     def conquer_route(self, routeid):
@@ -58,6 +76,8 @@ class Beurt:
         # If (kaarten van Speler kloppen om route in te nemen en nrOfBoxes klopt)
             # Route.isTaken == true
 
+
+# OUDE COMMENTS
 # TODO constructor van Speler: gegevens startscherm (naam, leeftijd) + kaarten genereren
 
 # TODO eerste beurt -> init, dit gebeurt in klasse Speler
