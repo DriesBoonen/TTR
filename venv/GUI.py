@@ -1,7 +1,7 @@
-import networkx as nx #soort van graph waar we het spelbord van kunnen maken
+# import networkx as nx #soort van graph waar we het spelbord van kunnen maken
 import Route
 import Speler
-import tkinter
+from tkinter import *
 
 class GUI:
 
@@ -16,48 +16,28 @@ class GUI:
     def start(self, start):
         # eerst namen ingeven: spelers aanmaken dus
 
+        master = Tk()
+        Label(master, text="Speler").grid(row=0)
+        Label(master, text="CPU1").grid(row=1)
+        Label(master, text="CPU2").grid(row=1)
+        Label(master, text="CPU3").grid(row=1)
+
+        e1 = Entry(master)
+        e2 = Entry(master)
+        e3 = Entry(master)
+        e4 = Entry(master)
+
+        e5 = Entry(master)
 
 
-        root = Tk()
-        frame = Frame(root)
-        frame.pack()
 
-        L1 = Label(root, text="Spelernaam")
-        L1.pack(side=LEFT)
-        E_spelernaam = Entry(root, bd=5)
-        E_spelernaam.pack(side=LEFT)
+        e1.grid(row=0, column=1)
+        e5.grid(row=0, column=2)
+        e2.grid(row=1, column=1)
+        e3.grid(row=2, column=1)
+        e4.grid(row=3, column=1)
 
-        L2 = Label(root, text="CPU1")
-        L2.pack(side=LEFT)
-        E_cpu1 = Entry(root, bd=5)
-        E_cpu1.pack(side=LEFT)
-
-        L3 = Label(root, text="CPU2")
-        L3.pack(side=LEFT)
-        E_cpu2 = Entry(root, bd=5)
-        E_cpu2.pack(side=LEFT)
-
-        L4 = Label(root, text="CPU3")
-        L4.pack(side=LEFT)
-        E_cpu3 = Entry(root, bd=5)
-        E_cpu3.pack(side=LEFT)
-
-        root.mainloop()
-
-
-        #count = 0
-        #
-        # while count < 5:
-        #     name = raw_input("Player "
-        #                  + str(self.posToMove + 1)
-        #                  + " please enter your name: (Must be unique) "
-        #                  )
-        #     age = raw_input("Age "
-        #                  + str(self.posToMove + 1)
-        #                  + " please enter your age: (Must be number) "
-        #                  )
-        #     count += 1
-
+        mainloop()
 
 
 
