@@ -16,29 +16,37 @@
     <favorites_list name="TTR" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Beurt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="90">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="e#10#23#0" expanded="true" />
-                <marker date="1543356413274" expanded="true" signature="1756:1765" ph="..." />
-                <marker date="1543356413274" expanded="true" signature="2006:2015" ph="..." />
-                <marker date="1543356413274" expanded="true" signature="2166:2175" ph="..." />
-                <marker date="1543356413274" expanded="true" signature="2736:2745" ph="..." />
-                <marker date="1543356413274" expanded="true" signature="2904:2913" ph="..." />
+                <marker date="1543415805092" expanded="true" signature="2584:2593" ph="..." />
+                <marker date="1543415805092" expanded="true" signature="2834:2843" ph="..." />
+                <marker date="1543415805092" expanded="true" signature="3559:3568" ph="..." />
+                <marker date="1543415805092" expanded="true" signature="3727:3736" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/TrainCards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/CPUSpeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -55,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Speler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -82,6 +90,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>deck</find>
+      <find>passed_id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -278,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543010565177</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Nota CPU-speler">
+      <created>1543411104085</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543411104085</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Constructor Beurt">
+      <created>1543413425845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543413425845</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -295,7 +318,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.19952305" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.2027027" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.19316375" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.19316375" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,7 +337,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.1963434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.19952305" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.19316375" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.19316375" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,9 +347,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49761525" weight="0.41740674" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4936407" visible="true" weight="0.3534636" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936407" weight="0.39786857" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5063593" side_tool="true" weight="0.3202847" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5063593" side_tool="true" weight="0.3197158" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -385,7 +408,9 @@
     <MESSAGE value="Testen van to do-lijstje" />
     <MESSAGE value="Opkuis" />
     <MESSAGE value="Notities toegevoegd voor implementatie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Notities toegevoegd voor implementatie" />
+    <MESSAGE value="Nota CPU-speler" />
+    <MESSAGE value="Constructor Beurt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor Beurt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -418,44 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/MissionCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="388">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/TrainCards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Beurt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="e#10#23#0" expanded="true" />
-            <marker date="1543356413274" expanded="true" signature="1756:1765" ph="..." />
-            <marker date="1543356413274" expanded="true" signature="2006:2015" ph="..." />
-            <marker date="1543356413274" expanded="true" signature="2166:2175" ph="..." />
-            <marker date="1543356413274" expanded="true" signature="2736:2745" ph="..." />
-            <marker date="1543356413274" expanded="true" signature="2904:2913" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Speler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -466,10 +455,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/CPUSpeler.py">
+    <entry file="file://$PROJECT_DIR$/venv/Speler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/CPUSpeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/TrainCards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Beurt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#10#23#0" expanded="true" />
+            <marker date="1543415805092" expanded="true" signature="2584:2593" ph="..." />
+            <marker date="1543415805092" expanded="true" signature="2834:2843" ph="..." />
+            <marker date="1543415805092" expanded="true" signature="3559:3568" ph="..." />
+            <marker date="1543415805092" expanded="true" signature="3727:3736" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
