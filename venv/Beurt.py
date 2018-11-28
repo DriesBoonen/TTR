@@ -6,6 +6,8 @@ import TrainCards
 import MissionCards
 import Route
 from random import randint
+from collections import defaultdict
+d = defaultdict(int)
 
 # Iedere keer nieuwe instantie van Beurt? Of altijd de gegevens verversen?
 # TODO GUI triggert Beurt. Eerste keer Beurt (init): aanmaken spelers, verdelen van kaarten en aanmaken routes
@@ -13,30 +15,26 @@ from random import randint
 # Aantal kaarten bijhouden live bijhouden bij speler?
 
 class Beurt:
-    # id = 0 # Moet = 0 erbij? # Werkt dit? Doel is om "static variable" te hebben die hetzelfde is voor alle instanties van Beurt, zodat id altijd met 1 verhoogd kan worden.
 
     # Constructor
-    def __init__(self, players): # Welke argumenten zijn het beste? List of array van spelers?
-        # id += 1
-
+    def __init__(self, name, age, color): # Welke argumenten zijn het beste? List of array van spelers?
         # TODO aanmaken spelers, verdelen van kaarten en aanmaken routes
         # Iedere speler krijgt 2 missiekaarten en 4 treinkaarten
 
         # Planning: eerst gewone speler aanmaken. Dan CPU-spelers: eerst kaarten genereren, dan toekennen bij aanmaken CPU-speler
 
-        # Speler aanmaken
+        # Menselijke speler aanmaken: heeft id = 0
         player = Speler.Speler.__init__(0, name, age, color) # Menselijke speler altijd ID = 0 geven
         # 4 treinkaarten: correcte syntax?
-        traincards_array = []
-        for i in range(0,4)
-            traincard = TrainCards.TrainCards.dealCard()
-            traincards_array.append(traincard) # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
-
+        #traincards_array = []
+        #for i in range(0,4):
+            #traincard = TrainCards.TrainCards.dealCard()
+            #traincards_array.append(traincard) # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
 
         # 2 missiekaarten: correcte syntax?
-        missioncard1 = MissionCards.MissionCards.dealMission()
-        missioncard2 = MissionCards.MissionCards.dealMission()
-        player.set_currmissions((missioncard1, missioncard2))
+        #missioncard1 = MissionCards.MissionCards.dealMission()
+        #missioncard2 = MissionCards.MissionCards.dealMission()
+        #player.set_currmissions((missioncard1, missioncard2))
 
 
         # CPU-spelers aanmaken: 5 spelers (0, 1, 2, 3 en 4)
@@ -50,7 +48,7 @@ class Beurt:
             for k in range(0,3):
                 traincard = TrainCards.TrainCards.dealCard()
                 traincards_array.append(traincard) # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
-            cpu_player = CPUSpeler.CPUSpeler.__init__(i+1, i+1, randint(10, 99), OVERIGE_KLEUREN, PAWNNR, 0, (missioncard1,missioncard2), True, ARRAY VAN AANTALLEN KAARTEN) # Willekeurige leeftijd tussen 10 en 99
+            cpu = CPUSpeler.CPUSpeler.__init__(i+1, i+1, randint(10, 99), OVERIGE_KLEUREN, PAWNNR, 0, (missioncard1,missioncard2), True, ARRAY VAN AANTALLEN KAARTEN) # Willekeurige leeftijd tussen 10 en 99
             i =+ 1
 
 

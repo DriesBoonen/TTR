@@ -11,6 +11,7 @@ class TrainCards(object):
         self.shuffle(self.cards)
 
 
+
     def shuffle(self, cards):
         random.shuffle(cards)
 
