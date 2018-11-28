@@ -25,7 +25,16 @@ class Beurt:
 
         # Speler aanmaken
         player = Speler.Speler.__init__(passed_id, name, age, color)
+        # 4 treinkaarten: correcte syntax?
+        i = 0
+        while(i < 4)
+            traincard = TrainCards.TrainCards.dealCard()
 
+
+        # 2 missiekaarten: correcte syntax?
+        missioncard1 = MissionCards.MissionCards.dealMission()
+        missioncard2 = MissionCards.MissionCards.dealMission()
+        player.set_currmissions([missioncard1, missioncard2])
 
         # CPU-spelers aanmaken
         while i < 5:
@@ -58,9 +67,6 @@ class Beurt:
     def extra_traincard(self):
         # Code extraTreinkaart
         # Functie extraCards(aantal kaarten die je moet bijkrijgen)
-
-        # Schudden van kaarten gebeurt in initialisatie?  #NOTA VAN ELMER: Klopt, lijst krijgt .shuffle() bij init
-
         t = TrainCards.TrainCards.dealCard() # dealCard: returnt 1 kaart? Correcte methode? Instantie maken eerst?
                                                 #NOTA VAN ELMER: Best object bv "Deck" aanmaken --> self.deck = TrainCards.TrainCards()
                                                 #Dit initialiseert Traincards met een stapel, daarna doe je self.deck.dealCard()" natuurlijk in de speler zijn hand
