@@ -12,6 +12,11 @@ class GUI:
         self.__board = score
         self.__start = win
 
+    def onlynum(S):
+        if S in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
+            return True
+
+        return False
 
     def start(self, start):
         # eerst namen ingeven: spelers aanmaken dus
@@ -27,7 +32,9 @@ class GUI:
         e2 = Entry(master)
         e3 = Entry(master)
         e4 = Entry(master)
-        e5 = Entry(master)  #voor leeftijd
+
+        vcmd = (t3.register(onlynum), '%S')            #enkel num input
+        e5 = Entry(master, validate='key', vcmd=vcmd)  #voor leeftijd
 
         b1 = Button(master, text="Start Spel", command=buttonstart) #als er op button gedrukt wordt dan voeren we 'buttonstart' uit
 
@@ -43,9 +50,31 @@ class GUI:
 
 
     def buttonstart(self):
-        #hier dan overgaan naar beurt?
-        #of maak ik hier al de spelers aan?
-        #wa was er ook al weer afgesproken? :p mijn dom hoofd heeft het niet onthouden :o
+        # hier dan overgaan naar beurt?
+        # hoe doe ik da praktisch? :D
+
+        if len(e1.get()) == 0:
+            if len(e5.get()) == 0:
+                # controleren dat belangrijkste textvakken niet leeg zijn
+                username = e1.get()
+                age = e5.get()
+
+                if len(e2.get()) == 0:
+                    cpu1 = "Patrick"
+                else:
+                    cpu1 = e2.get()
+
+                if len(e4.get()) == 0:
+                    cpu2= "Staf"
+                else:
+                    cpu2 = e3.get()
+
+                if len(e3.get()) == 0:
+                    cpu3="Marc"
+                else:
+                    cpu3 = e4.get()
+
+                # doorgeven en ga naar beurt dan?
 
 
     def initbord(self, board):
