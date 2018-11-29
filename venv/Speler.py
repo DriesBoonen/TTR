@@ -26,7 +26,7 @@ class Speler:
         # missioncard2 = MissionCards.MissionCards.dealMission()
         # player.set_currmissions((missioncard1, missioncard2))
 
-        #dit lijkt me idd een betere oplossing (Dries)
+        # --> dit lijkt me idd een betere oplossing (Dries)
 
 
         #dit zou dan de constructor zijn om nieuwe spelers aan te maken? 'Jaa (Dries) :D'
