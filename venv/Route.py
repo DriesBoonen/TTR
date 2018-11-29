@@ -31,7 +31,7 @@ class Route:
 
 # aanmaken
 # for i in range():
-#     self.board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
+# #     self.board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
 # subset van kaart
 # listOfCities = [
 #   "Berlijn", "Wenen", "Warschau", "Kiev", "Boekarest" # 0, 1, 2, 3, 4
