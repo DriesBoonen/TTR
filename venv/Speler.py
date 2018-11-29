@@ -5,7 +5,7 @@ class Speler:
     def __init__(self, id, name, age, color):
 
 
-        self.__id= id               #deze opbjecten krijgt hij door van de GUI? ofwa?
+        self.__id= id
         self.__name = name          #deze opbjecten krijgt hij door van de GUI? ofwa?
         self.__age = age            #deze opbjecten krijgt hij door van de GUI? ofwa?
         self.__color = color        #deze opbjecten krijgt hij door van de GUI? ofwa?
@@ -26,9 +26,12 @@ class Speler:
         # missioncard2 = MissionCards.MissionCards.dealMission()
         # player.set_currmissions((missioncard1, missioncard2))
 
+        #dit lijkt me idd een betere oplossing (Dries)
 
-        #dit zou dan de constructor zijn om nieuwe spelers aan te maken?
-        #Je geeft dan id, name, age, color mee in het startscherm (GUI)
+
+        #dit zou dan de constructor zijn om nieuwe spelers aan te maken? 'Jaa (Dries) :D'
+        #Je geeft dan id, name, age, color mee in het startscherm (GUI)  'id genereer je automatisch bij het startscherm of hier?, de rest komt uit het startscherm'
+
         #pawnnr, missionscomplete, traincards en missioncards worden dan gegenereerd? (controleren of dit wel de juiste instanties zijn?)
 
 
