@@ -7,3 +7,5 @@ class CPUSpeler(Speler):
         
         # Of def __init__(self):
         #       Speler.__init__(self, isCPU=True) # Mss wel de volgorde van argumenten omdraaien?
+
+        # Pawn op 20 zetten, random leeftijd, namen van CPU-spelers, willekeurige missioncards en traincards trekken
