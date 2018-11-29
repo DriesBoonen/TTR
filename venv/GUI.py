@@ -104,12 +104,13 @@ class GUI:
 
 
 
-        self.bord = nx.Graph()
-        self.cities = [
-                        ]
+        self.board = nx.Graph()
 
-        for city in self.cities:
+
+        for city in range(listOfCities):
             self.bord.add_node(city)
 
+        self.board.add_edge(listOfCities[1], listOfCities[0], weight = 1, edgeColors = ['yellow', 'red'])
+        self.board.add_edge(listOfCities[0], listOfCities[2], weight=2, edgeColors=['blue', 'green'])
 
 #dan iets da we kunnen laten samenwerken met route? om de edges(routes) tussen de nodes te kunnen maken
