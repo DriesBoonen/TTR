@@ -2,7 +2,7 @@
 
 class Speler:
     #constructor
-    def __init__(self, id, name, age, color):
+    def __init__(self, id, name, age, color, startHand):
 
 
         self.__id= id
@@ -12,8 +12,7 @@ class Speler:
         self.__pawnnr = 20
         self.__missionscomp = 0
 
-        for i in range(4):
-            self.__hand = [TrainCards.dealCard()] #klopt dit? ELMER?
+        self.hand = collections.Counter() #klopt dit? ELMER?
                                                     #Met collection.counter is beter denk ik: card=TrainCards.dealCard();self.hand[card] += 1; maar kdenk collection best nog initialiseren
                                                     #Op die manier wordt elke kleur (dus "red" bv) als een aantal bijgehouden ipv een lijst
 
