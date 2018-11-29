@@ -74,7 +74,8 @@ class GUI:
                 else:
                     cpu3 = e4.get()
 
-                # doorgeven en ga naar beurt dan?
+
+                # doorgeven en ga naar beurt dan? hoe doe ik da juist? :D variables zijn dan: (username, age, cpu1-3) kleuren moeten hier ook nog bij
 
 
     def initbord(self, board):
