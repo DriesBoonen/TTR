@@ -3,8 +3,15 @@ import random
 
 class MissionCards(object):
 
-    self.missions = [(("Stad1, Stad2"), (("Tussen1, Tussen2, Tussen3"),("Tussen1, Tussen3"),("Tussen1, Tussen2, Tussen4"))),
-                (("Stad2, Stad3"), (("Tussen4, Tussen5"), ("Tussen5"), ("Tussen5, Tussen6")))  #Enzovoort kunnen we deze hardcoden
+    self.missions = [(("Berlijn, Kiev"), (("Warschau"),("Wenen"),("Warschau, Wenen"),("Wenen, Bucharest"))),
+                     (("Berlijn, Bucharest"), (("Wenen"), ("Warschau, Kiev"), ("Warschau, Wenen"))),
+                     (("Warschau, Bucharest"), (("Wenen"),("Kiev"),("Berlijn, Wenen"))),
+                     (("Berlijn, Wenen"),(("Warschau"),("Warschau, Kiev"))),
+                     (("Berlijn, Warschau"),(("Wenen"),("Wenen, Kiev"))),
+                     (("Warschau, Wenen"),(("Berlijn"), ("Kiev"), ("Kiev, Bucharest"))),
+                     (("Kiev, Bucharest"),(("Wenen"),("Warschau, Wenen"))),
+                     (("Kiev, Wenen"),(("Bucharest"),("Warschau"),("Warschau, Berlijn")))
+                         #Enzovoort kunnen we deze hardcoden
                ]
 
     #print(missions[0][1][2])  #Dit geeft "Tussen1, Tussen2, Tussen4" uit eerste missie, op deze manier kunnen we dus wel de tuples doorzoeken ;)
