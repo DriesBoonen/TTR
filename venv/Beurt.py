@@ -23,9 +23,20 @@ class Beurt:
 
         # Planning: eerst gewone speler aanmaken. Dan CPU-spelers: eerst kaarten genereren, dan toekennen bij aanmaken CPU-speler
 
+
+
+
         # Menselijke speler aanmaken: heeft id = 0
         # Treinkaarten en missiekaarten op begin van spel: constructor Speler
-        player = Speler.Speler.__init__(0, name, age, color) # Menselijke speler altijd ID = 0 geven
+        player = Speler.Speler.__init__(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven
+
+        self.deck = TrainCards.TrainCards()
+
+        for i in range(aantalSpelers):
+            for j in range(4):
+                getrokkenKaart = self.deck.dealCard()
+                player.addCardToHand(getrokkenKaart)
+
 
         d = {} # Dictionary
 
