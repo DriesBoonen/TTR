@@ -17,16 +17,11 @@ class Speler:
                                                     #Met collection.counter is beter denk ik: card=TrainCards.dealCard();self.hand[card] += 1; maar kdenk collection best nog initialiseren
                                                     #Op die manier wordt elke kleur (dus "red" bv) als een aantal bijgehouden ipv een lijst
 
-        for i in range(2):
-            self.__currmissions = [MissionCards.dealMission()] #moet nog geschreven worden denk ik, ELMER?
-                                                            # #Wordt aan gewerkt, moet nog uitvissen hoe ik die records maak
-
-        # Michiel:
-        # missioncard1 = MissionCards.MissionCards.dealMission()
-        # missioncard2 = MissionCards.MissionCards.dealMission()
-        # player.set_currmissions((missioncard1, missioncard2))
-
-        # --> dit lijkt me idd een betere oplossing (Dries)
+        missioncard1 = MissionCards.MissionCards.dealMission()
+        missioncard2 = MissionCards.MissionCards.dealMission()
+        player.set_currmissions((missioncard1, missioncard2))
+        # moet nog geschreven worden denk ik, ELMER?
+        # Wordt aan gewerkt, moet nog uitvissen hoe ik die records maak
 
 
         #dit zou dan de constructor zijn om nieuwe spelers aan te maken? 'Jaa (Dries) :D'
