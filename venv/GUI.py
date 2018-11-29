@@ -112,5 +112,10 @@ class GUI:
 
         self.board.add_edge(listOfCities[1], listOfCities[0], weight = 1, edgeColors = ['yellow', 'red'])
         self.board.add_edge(listOfCities[0], listOfCities[2], weight=2, edgeColors=['blue', 'green'])
+        self.board.add_edge(listOfCities[2], listOfCities[1], weight=1, edgeColors=['black'])
+        self.board.add_edge(listOfCities[3], listOfCities[1], weight=3, edgeColors=['white'])
+        self.board.add_edge(listOfCities[3], listOfCities[2], weight=1, edgeColors=['yellow'])
+        self.board.add_edge(listOfCities[4], listOfCities[1], weight=2, edgeColors=['blue', 'yellow'])
+        self.board.add_edge(listOfCities[4], listOfCities[3], weight=2, edgeColors=['red'])
 
 #dan iets da we kunnen laten samenwerken met route? om de edges(routes) tussen de nodes te kunnen maken
