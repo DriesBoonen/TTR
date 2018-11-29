@@ -1,4 +1,4 @@
-# import networkx as nx #soort van graph waar we het spelbord van kunnen maken
+import networkx as nx #soort van graph waar we het spelbord van kunnen maken
 import Route
 import Speler
 from tkinter import *
