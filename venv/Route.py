@@ -29,6 +29,7 @@ class Route:
     def set_occupiedBy(self, occupiedBy):
         self.__occupiedBy = occupiedBy
 
+
 # subset van kaart
 # listOfCities = [
 #   "Berlijn", "Wenen", "Warschau", "Kiev", "Boekarest" # 0, 1, 2, 3, 4
