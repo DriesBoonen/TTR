@@ -1,16 +1,15 @@
 import networkx as nx #soort van graph waar we het spelbord van kunnen maken
 import Route
 import Speler
-from tkinter import *
+from Tkinter import *
+
+
 
 class GUI:
 
-    def __init__(self, board, start, score, win):
-        self.__board = board
-        self.__start = start
 
-        self.__board = score
-        self.__start = win
+    def __init__(self):
+
 
     def onlynum(S):
         if S in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
@@ -79,7 +78,7 @@ class GUI:
                 # --> effe hardcoden denk ik
 
 
-    def initbord(self, board):
+    def initbord(self):
 
         # subset van kaart
         listOfCities = [
@@ -106,9 +105,11 @@ class GUI:
 
         self.board = nx.Graph()
 
+        #hahaha ik ben echt dom (Dries)
         for i in range(0, len(routes)):
           #                   # from city                # to city                  # path cost                      # color of path
           self.board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
+
 
         #for city in range(listOfCities):
         #    self.bord.add_node(city)
@@ -121,4 +122,9 @@ class GUI:
         #self.board.add_edge(listOfCities[4], listOfCities[1], weight=2, edgeColors=['blue', 'yellow'])
         #self.board.add_edge(listOfCities[4], listOfCities[3], weight=2, edgeColors=['red'])
 
+
+my_gui = GUI()
+
+while True:
+    my_gui.start(self)
 #dan iets da we kunnen laten samenwerken met route? om de edges(routes) tussen de nodes te kunnen maken
