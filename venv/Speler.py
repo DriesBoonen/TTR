@@ -2,7 +2,7 @@
 
 class Speler:
     #constructor
-    def __init__(self, id, name, age, color, startHand):
+    def __init__(self, id, name, age, color):
 
 
         self.__id= id
@@ -32,6 +32,9 @@ class Speler:
 
     #onderstaande is vrij overbodig denk ik
 
+    def is_cpu(self):
+        return False
+
     def set_name(self, name):
         self.__name = name
 
@@ -50,3 +53,25 @@ class Speler:
     def set_currmissions(self, currmissions):
         self.__currmissions = currmissions
 
+
+
+    """"
+    DIT MOET IN BEURT DENK IK? in methode 'extra_train_card'
+    
+    Samenwerken met treinkaarten? iets met een kaarten dek waaruit je uit kan 'trekken'
+    --> zou er ongeveer zo kunnen uitzien:
+    
+    NOTA VAN ELMER: Dit is hoe ik bovenstaande opmerking bedoel
+    Deck is niet nodig, deze is enkel nodig als ge da deck aanvult, maar ge kunt mijne cardslist gewoon blijven poppen tot die leeg is
+    Het poppen van de lijst gebeurt in GUI denk ik of in beurt met "Deck.dealCard()", deck is dan het object dat je van traincards aanmaakte
+    
+    #add traincard to hand
+        def addCardToHand(self, traincard):
+            """adds a single card to hand
+            assumes card is a valid choice
+            card: String
+            """
+            if traincard != None:
+                self.hand[traincard] += 1
+                
+        """
