@@ -67,10 +67,7 @@ class Speler:
     
     #add traincard to hand
         def addCardToHand(self, traincard):
-            """adds a single card to hand
-            assumes card is a valid choice
-            card: String
-            """
+            
             if traincard != None:
                 self.hand[traincard] += 1
                 

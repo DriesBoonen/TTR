@@ -1,45 +1,56 @@
 import networkx as nx #soort van graph waar we het spelbord van kunnen maken
 import Route
 import Speler
+import os
 from Tkinter import *
-
+import tkMessageBox
 
 
 class GUI:
 
-    def buttonstart(self):
-        # hier dan overgaan naar beurt?
-        # hoe doe ik da praktisch? :D
-
-        if len(e1.get()) == 0:
-            if len(e5.get()) == 0:
-                # controleren dat belangrijkste textvakken niet leeg zijn
-                username = e1.get()
-                age = e5.get()
-
-                if len(e2.get()) == 0:
-                    cpu1 = "Patrick"
-                else:
-                    cpu1 = e2.get()
-
-                if len(e4.get()) == 0:
-                    cpu2 = "Staf"
-                else:
-                    cpu2 = e3.get()
-
-                if len(e3.get()) == 0:
-                    cpu3 = "Marc"
-                else:
-                    cpu3 = e4.get()
-
-                # doorgeven en ga naar beurt dan? hoe doe ik da juist? :D variables zijn dan: (username, age, cpu1-3)
-                # kleuren moeten hier ook nog bij
-                # --> effe hardcoden denk ik
-
     def start(self):
+
+        def buttonstart():
+            # hier dan overgaan naar beurt?
+            # hoe doe ik da praktisch? :D
+
+            if e1.index("end") != 0:
+                if agevar.get() != 0:
+                    # controleren dat belangrijkste textvakken niet leeg zijn
+                    username = e1.get()
+                    age = agevar.get()
+                    tkMessageBox.showinfo("Hello Python", "Hello " + username + " : " + age)
+                    if len(e2.get()) == 0:
+                        cpu1 = "Patrick"
+                    else:
+                        cpu1 = e2.get()
+
+                    if len(e4.get()) == 0:
+                        cpu2 = "Staf"
+                    else:
+                        cpu2 = e3.get()
+
+                    if len(e3.get()) == 0:
+                        cpu3 = "Marc"
+                    else:
+                        cpu3 = e4.get()
+
+
+                    # doorgeven en ga naar beurt dan? hoe doe ik da juist? :D variables zijn dan: (username, age, cpu1-3)
+                    # kleuren moeten hier ook nog bij
+                    # --> effe hardcoden denk ik
+
         # eerst namen ingeven: spelers aanmaken dus
 
         master = Tk()
+
+        script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+        rel_path = "maxresdefault.png"
+        abs_file_path = os.path.join(script_dir, rel_path)
+
+        background_image = PhotoImage(file=abs_file_path)
+        background_label = Label(master, image=background_image)
+        background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
         Label(master, text="Speler naam - leeftijd").grid(row=0)
         Label(master, text="CPU1 naam").grid(row=1)
@@ -56,21 +67,19 @@ class GUI:
         for i in range(1, 100):
             ages.append(i)
 
-        drop = OptionMenu(master, 'Kies leeftijd', *ages)
+        agevar = StringVar(master)
+        drop = OptionMenu(master, agevar, *ages)
 
-        #b1 = Button(master, text="Start Spel", command=buttonstart) #als er op button gedrukt wordt dan voeren we 'buttonstart' uit
+        b1 = Button(master, text="Start Spel", command=buttonstart) #als er op button gedrukt wordt dan voeren we 'buttonstart' uit
 
         e1.grid(row=0, column=1)
         drop.grid(row=0, column=2)
         e2.grid(row=1, column=1)
         e3.grid(row=2, column=1)
         e4.grid(row=3, column=1)
-        #b1.grid(row=4, column=1)
+        b1.grid(row=4, column=1)
 
         mainloop()
-
-
-
 
     def initbord(self):
 
@@ -94,7 +103,6 @@ class GUI:
         routes.append(Route('yellow', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (yellow)
         routes.append(Route('blue', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (blue)
         routes.append(Route('red', 2, [listOfCities[4], listOfCities[3]], 0))  # Kiev (red)
-
 
 
         self.board = nx.Graph()
@@ -121,4 +129,3 @@ my_gui = GUI()
 
 while True:
     my_gui.start()
-#dan iets da we kunnen laten samenwerken met route? om de edges(routes) tussen de nodes te kunnen maken
