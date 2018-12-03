@@ -3,7 +3,8 @@ import random
 
 class MissionCards(object):
 
-    self.missions = [(("Berlijn, Kiev"), (("Warschau"),("Wenen"),("Warschau, Wenen"),("Wenen, Bucharest"))),
+    def __init__(self): # Toegevoegd door Michiel
+        self.missions = [(("Berlijn, Kiev"), (("Warschau"),("Wenen"),("Warschau, Wenen"),("Wenen, Bucharest"))),
                      (("Berlijn, Bucharest"), (("Wenen"), ("Warschau, Kiev"), ("Warschau, Wenen"))),
                      (("Warschau, Bucharest"), (("Wenen"),("Kiev"),("Berlijn, Wenen"))),
                      (("Berlijn, Wenen"),(("Warschau"),("Warschau, Kiev"))),

@@ -28,10 +28,9 @@ class Beurt:
 
         # Menselijke speler aanmaken: heeft id = 0
         # Treinkaarten en missiekaarten op begin van spel: constructor Speler
-        player = Speler.Speler.__init__(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven
+        player = Speler.Speler(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven # Of Speler.Speler.__init__(...)
 
         self.deck = TrainCards.TrainCards()
-        self.missioncards = MissionCards.MissionCards()
 
         #for i in range(aantalSpelers): # Niet nodig omdat je enkel aan player toekent
             for j in range(4):
@@ -41,21 +40,24 @@ class Beurt:
 
         d = {} # Dictionary
 
+        self.missioncards = MissionCards.MissionCards() # Deck missiekaarten
+
         # CPU-spelers aanmaken: 3 CPU-spelers (1, 2, 3)
         for i in range(0, 3):
             # Random kaarten generen
             # Nieuwe CPU-speler aanmaken en kaarten toekennen via constructor?
-            missioncard1 =
-            missioncard2 = MissionCards.MissionCards.dealMission()
-
-            # 4 treinkaarten nemen om te starten
-            for k in range(0,4):
-                traincard = TrainCards.TrainCards.dealCard()
-                traincards_array.append(traincard) # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
+            missioncard1 =  self.missioncards.dealMission()
+            missioncard2 = self.missioncards.dealMission()
 
             # cpu1, cpu2 en cpu3: werkt dit?
             # namen cpu's zitten in array: itereren over array?
             d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler.__init__(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN, PAWNNR, 0, (missioncard1,missioncard2), True, ARRAY VAN AANTALLEN KAARTEN) # Willekeurige leeftijd tussen 10 en 99
+
+            # 4 treinkaarten nemen om te starten (CPU)
+            for k in range(d):
+                traincard = self.deck.dealCard()
+                #traincards_array.append(traincard)  # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
+
 
 
 
