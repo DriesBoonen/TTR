@@ -17,7 +17,7 @@ d = defaultdict(int)
 class Beurt:
 
     # Constructor
-    def __init__(self, name, age, color): # Welke argumenten zijn het beste? List of array van spelers?
+    def __init__(self, name, age, color, cpu_names): # Welke argumenten zijn het beste? List of array van spelers?
         # TODO aanmaken spelers, verdelen van kaarten en aanmaken routes
         # Iedere speler krijgt 2 missiekaarten en 4 treinkaarten
 
@@ -32,15 +32,15 @@ class Beurt:
 
         self.deck = TrainCards.TrainCards()
 
-        for i in range(aantalSpelers):
+        #for i in range(aantalSpelers): # Niet nodig omdat je enkel aan player toekent
             for j in range(4):
                 getrokkenKaart = self.deck.dealCard()
-                player.addCardToHand(getrokkenKaart)
+                player.add_card_to_hand(getrokkenKaart)
 
 
         d = {} # Dictionary
 
-        # CPU-spelers aanmaken: 3 CPU-spelers (0, 1, 2, 3 en 4)
+        # CPU-spelers aanmaken: 3 CPU-spelers (1, 2, 3)
         for i in range(0, 3):
             # Random kaarten generen
             # Nieuwe CPU-speler aanmaken en kaarten toekennen via constructor?
@@ -48,12 +48,13 @@ class Beurt:
             missioncard2 = MissionCards.MissionCards.dealMission()
 
             # 4 treinkaarten nemen om te starten
-            for k in range(0,3):
+            for k in range(0,4):
                 traincard = TrainCards.TrainCards.dealCard()
                 traincards_array.append(traincard) # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
 
             # cpu1, cpu2 en cpu3: werkt dit?
-            d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler.__init__(i+1, i+1, randint(10, 99), OVERIGE_KLEUREN, PAWNNR, 0, (missioncard1,missioncard2), True, ARRAY VAN AANTALLEN KAARTEN) # Willekeurige leeftijd tussen 10 en 99
+            # namen cpu's zitten in array: itereren over array?
+            d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler.__init__(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN, PAWNNR, 0, (missioncard1,missioncard2), True, ARRAY VAN AANTALLEN KAARTEN) # Willekeurige leeftijd tussen 10 en 99
 
 
 
