@@ -31,6 +31,7 @@ class Beurt:
         player = Speler.Speler.__init__(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven
 
         self.deck = TrainCards.TrainCards()
+        self.missioncards = MissionCards.MissionCards()
 
         #for i in range(aantalSpelers): # Niet nodig omdat je enkel aan player toekent
             for j in range(4):
@@ -44,7 +45,7 @@ class Beurt:
         for i in range(0, 3):
             # Random kaarten generen
             # Nieuwe CPU-speler aanmaken en kaarten toekennen via constructor?
-            missioncard1 = MissionCards.MissionCards.dealMission()
+            missioncard1 =
             missioncard2 = MissionCards.MissionCards.dealMission()
 
             # 4 treinkaarten nemen om te starten

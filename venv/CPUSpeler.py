@@ -20,6 +20,9 @@ class CPUSpeler(Speler):
         Speler.__init__(self, id, name, age, color)
         Speler.Speler.set_cpu_player(True) # Werkt dit?
 
+
+    # Heeft deze ook methodes add_card_to_hand en remove_card_from_hand van Speler???
+
     def is_cpu(self):
         return True
 
