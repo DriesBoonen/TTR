@@ -51,12 +51,12 @@ class Beurt:
 
             # cpu1, cpu2 en cpu3: werkt dit?
             # namen cpu's zitten in array: itereren over array?
-            d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler.__init__(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN, PAWNNR, 0, (missioncard1,missioncard2), True, ARRAY VAN AANTALLEN KAARTEN) # Willekeurige leeftijd tussen 10 en 99
+            d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN) # Willekeurige leeftijd tussen 10 en 99
 
-            # 4 treinkaarten nemen om te starten (CPU)
-            for k in range(d):
-                traincard = self.deck.dealCard()
-                #traincards_array.append(traincard)  # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
+        # 4 treinkaarten nemen om te starten (CPU)
+        for k in range(d):
+            traincard = self.deck.dealCard()
+            #traincards_array.append(traincard)  # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
 
 
 

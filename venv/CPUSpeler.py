@@ -19,9 +19,16 @@ class CPUSpeler(Speler):
         age = randint(10, 99)
         Speler.__init__(self, id, name, age, color)
         Speler.Speler.set_cpu_player(True) # Werkt dit?
+        self.hand = Counter(red=0, blue=0, green=0, black=0, white=0, yellow=0)  # Opvragen met hand['red']
 
 
     # Heeft deze ook methodes add_card_to_hand en remove_card_from_hand van Speler???
+
+    def add_card_to_hand(self, color): # Mogen weg?
+        self.hand[color] = self.hand[color] + 1
+
+    def remove_card_from_hand(self, color): # Mogen weg?
+        self.hand[color] = self.hand[color] - 1
 
     def is_cpu(self):
         return True
