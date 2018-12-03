@@ -23,9 +23,6 @@ class Beurt:
 
         # Planning: eerst gewone speler aanmaken. Dan CPU-spelers: eerst kaarten genereren, dan toekennen bij aanmaken CPU-speler
 
-
-
-
         # Menselijke speler aanmaken: heeft id = 0
         # Treinkaarten en missiekaarten op begin van spel: constructor Speler
         player = Speler.Speler(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven # Of Speler.Speler.__init__(...)
@@ -67,17 +64,14 @@ class Beurt:
 
 
     # Normale methodes
-    def swap_mission(self, pl = Speler.Speler, mission_to_change):
-        # Error voor "mission_to_change" in functiedeclaratie???
+    def swap_mission(self, pl = Speler.Speler, mission_to_change = str()): # Correct????
         new_mission = self.missioncards.dealMission()
-        missions = pl.get_missions()
         for i in range(0,2):
-            if(missions[i] == mission_to_change):
-                missions[i] = new_mission
+            if pl.get_missions()[i] == mission_to_change:
+                pl.get_missions[i] = new_mission
 
 
     def extra_traincard(self, pl = Speler.Speler):
-        # Functie extraCards(aantal kaarten die je moet bijkrijgen)
         color = self.deck.dealCard()                # dealCard: returnt 1 kaart? Correcte methode? Instantie maken eerst?
         pl.add_card_to_hand(color)                                        #NOTA VAN ELMER: Best object bv "Deck" aanmaken --> self.deck = TrainCards.TrainCards()
                                                 #Dit initialiseert Traincards met een stapel, daarna doe je self.deck.dealCard()" natuurlijk in de speler zijn hand
