@@ -128,4 +128,4 @@ class GUI:
 my_gui = GUI()
 
 while True:
-    my_gui.start()
+    my_gui.initbord()
