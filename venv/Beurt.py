@@ -31,24 +31,22 @@ class Beurt:
         player = Speler.Speler(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven # Of Speler.Speler.__init__(...)
 
         self.deck = TrainCards.TrainCards()
+        self.missioncards = MissionCards.MissionCards()  # Deck missiekaarten
 
         #for i in range(aantalSpelers): # Niet nodig omdat je enkel aan player toekent
-            for j in range(4):
-                getrokkenKaart = self.deck.dealCard()
-                player.add_card_to_hand(getrokkenKaart)
+        for j in range(4):
+            getrokkenKaart = self.deck.dealCard()
+            player.add_card_to_hand(getrokkenKaart)
 
+        # Missiekaarten menselijke speler
+        missioncard1 = self.missioncards.dealMission()
+        missioncard2 = self.missioncards.dealMission()
+        player.set_currmissions(tuple([missioncard1, missioncard2]))
 
         d = {} # Dictionary
 
-        self.missioncards = MissionCards.MissionCards() # Deck missiekaarten
-
         # CPU-spelers aanmaken: 3 CPU-spelers (1, 2, 3)
         for i in range(0, 3):
-            # Random kaarten generen
-            # Nieuwe CPU-speler aanmaken en kaarten toekennen via constructor?
-            missioncard1 =  self.missioncards.dealMission()
-            missioncard2 = self.missioncards.dealMission()
-
             # cpu1, cpu2 en cpu3: werkt dit?
             # namen cpu's zitten in array: itereren over array?
             d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN) # Eerste deel werkt
@@ -56,38 +54,34 @@ class Beurt:
 
         # 4 treinkaarten nemen om te starten (CPU)
         for k in range(len(d)):
-            traincard = self.deck.dealCard()
-            #traincards_array.append(traincard)  # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
-            k.add_card_to_hand(traincard) # Werkt hopelijk
+            for j in range(0,3):
+                # Treinkaarten toekennen aan CPU's
+                traincard = self.deck.dealCard()
+                #traincards_array.append(traincard)  # # Indien methode "TrainCards.dealcard" kaartenteller van Speler verhoogt, dan is dit niet nodig
+                k.add_card_to_hand(traincard) # Werkt hopelijk
+
+            # Missiekaarten toekennen aan CPU's (terug buitenste for-loop om over CPU's te stappen)
+            missioncard1 = self.missioncards.dealMission()
+            missioncard2 = self.missioncards.dealMission()
+            k.set_currmissions = tuple([missioncard1, missioncard2])
 
 
+    # Normale methodes
+    def swap_mission(self, pl = Speler.Speler, mission_to_change):
+        # Error voor "mission_to_change" in functiedeclaratie???
+        new_mission = self.missioncards.dealMission()
+        missions = pl.get_missions()
+        for i in range(0,2):
+            if(missions[i] == mission_to_change):
+                missions[i] = new_mission
 
-    # Getters
-    def get_id(self):
-        return self.__id
 
-    def get_playerid(self):
-        return self.__playerid
-
-    # Setters
-    def set_id(self, newid):
-        self.__id = newid
-
-    def set_playerid(self, newplayerid):
-        self.__playerid = newplayerid
-
-    # Normal methods
-    def swap_mission(self, mission_to_change):
-        # Op einde: return of Speler zijn hand wijzigen?
-        # mission_to_change = MissionCards.MissionCards.random
-        # return missie_to_change
-
-    def extra_traincard(self):
+    def extra_traincard(self, pl = Speler.Speler):
         # Functie extraCards(aantal kaarten die je moet bijkrijgen)
-        t = TrainCards.TrainCards.dealCard() # dealCard: returnt 1 kaart? Correcte methode? Instantie maken eerst?
-                                                #NOTA VAN ELMER: Best object bv "Deck" aanmaken --> self.deck = TrainCards.TrainCards()
+        color = self.deck.dealCard()                # dealCard: returnt 1 kaart? Correcte methode? Instantie maken eerst?
+        pl.add_card_to_hand(color)                                        #NOTA VAN ELMER: Best object bv "Deck" aanmaken --> self.deck = TrainCards.TrainCards()
                                                 #Dit initialiseert Traincards met een stapel, daarna doe je self.deck.dealCard()" natuurlijk in de speler zijn hand
-        return t
+
 
     def conquer_route(self, routeid):
         # Code routeInnemen
@@ -98,6 +92,10 @@ class Beurt:
         # Code controleer of er een route voltooid is
         # If (kaarten van Speler kloppen om route in te nemen en nrOfBoxes klopt)
             # Route.isTaken == true
+
+    # ================================================================================================
+
+
 
 
 

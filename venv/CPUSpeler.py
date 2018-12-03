@@ -24,11 +24,11 @@ class CPUSpeler(Speler):
 
     # Heeft deze ook methodes add_card_to_hand en remove_card_from_hand van Speler???
 
-    def add_card_to_hand(self, color): # Mogen weg?
-        self.hand[color] = self.hand[color] + 1
+    #def add_card_to_hand(self, color): # Mogen weg?
+        #self.hand[color] = self.hand[color] + 1
 
-    def remove_card_from_hand(self, color): # Mogen weg?
-        self.hand[color] = self.hand[color] - 1
+    #def remove_card_from_hand(self, color): # Mogen weg?
+        #self.hand[color] = self.hand[color] - 1
 
     def is_cpu(self):
         return True
