@@ -3,24 +3,17 @@
 class Speler:
     #constructor
     def __init__(self, id, name, age, color):
-
-
-        self.__id= id
+        self.__id = id
         self.__name = name          #deze opbjecten krijgt hij door van de GUI? ofwa?
         self.__age = age            #deze opbjecten krijgt hij door van de GUI? ofwa?
         self.__color = color        #deze opbjecten krijgt hij door van de GUI? ofwa?
         self.__pawnnr = 20
         self.__missionscomp = 0
 
-        self.hand = collections.Counter() #klopt dit? ELMER?
-                                                    #Met collection.counter is beter denk ik: card=TrainCards.dealCard();self.hand[card] += 1; maar kdenk collection best nog initialiseren
+                                                    #Met collection.hand is beter denk ik: card=TrainCards.dealCard();self.hand[card] += 1; maar kdenk collection best nog initialiseren
                                                     #Op die manier wordt elke kleur (dus "red" bv) als een aantal bijgehouden ipv een lijst
 
-        missioncard1 = MissionCards.MissionCards.dealMission()
-        missioncard2 = MissionCards.MissionCards.dealMission()
-        player.set_currmissions((missioncard1, missioncard2))
-        # moet nog geschreven worden denk ik, ELMER?
-        # Wordt aan gewerkt, moet nog uitvissen hoe ik die records maak
+        self.hand = Counter(red=0, blue=0, green=0, black=0, white=0, yellow=0) # Opvragen met hand['red']
 
 
         #dit zou dan de constructor zijn om nieuwe spelers aan te maken? 'Jaa (Dries) :D'
@@ -53,7 +46,11 @@ class Speler:
     def set_currmissions(self, currmissions):
         self.__currmissions = currmissions
 
+    def add_card_to_hand(self, color):
+        self.hand[color] = self.hand[color] + 1
 
+    def remove_card_from_hand(self, color):
+        self.hand[color] = self.hand[color] - 1
 
     """"
     DIT MOET IN BEURT DENK IK? in methode 'extra_train_card'
