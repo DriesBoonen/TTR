@@ -90,19 +90,20 @@ class GUI:
         routes = []
         # Berlijn to
         # Wenen to
-        routes.append(Route('yellow', 1, [listOfCities[1], listOfCities[0]], 0))  # Berlijn (yellow)
-        routes.append(Route('red', 1, [listOfCities[1], listOfCities[0]], 0))  # Berlijn (red)
+        #rou = Route.Route('', 0, ["", ""], 0)
+        routes.append(Route.Route('yellow', 1, [listOfCities[1], listOfCities[0]], 0))  # Berlijn (yellow)
+        routes.append(Route.Route('red', 1, [listOfCities[1], listOfCities[0]], 0))  # Berlijn (red)
         # Warschau to
-        routes.append(Route('blue', 2, [listOfCities[2], listOfCities[0]], 0))  # Berlijn (blue)
-        routes.append(Route('green', 2, [listOfCities[2], listOfCities[0]], 0))  # Berlijn (green)
-        routes.append(Route('black', 1, [listOfCities[2], listOfCities[1]], 0))  # Wenen (black)
+        routes.append(Route.Route('blue', 2, [listOfCities[2], listOfCities[0]], 0))  # Berlijn (blue)
+        routes.append(Route.Route('green', 2, [listOfCities[2], listOfCities[0]], 0))  # Berlijn (green)
+        routes.append(Route.Route('black', 1, [listOfCities[2], listOfCities[1]], 0))  # Wenen (black)
         # Kiev to
-        routes.append(Route('white', 3, [listOfCities[3], listOfCities[1]], 0))  # Wenen (white)
-        routes.append(Route('yellow', 1, [listOfCities[3], listOfCities[2]], 0))  # Warschau (yellow)
+        routes.append(Route.Route('white', 3, [listOfCities[3], listOfCities[1]], 0))  # Wenen (white)
+        routes.append(Route.Route('yellow', 1, [listOfCities[3], listOfCities[2]], 0))  # Warschau (yellow)
         # Boekarest to
-        routes.append(Route('yellow', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (yellow)
-        routes.append(Route('blue', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (blue)
-        routes.append(Route('red', 2, [listOfCities[4], listOfCities[3]], 0))  # Kiev (red)
+        routes.append(Route.Route('yellow', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (yellow)
+        routes.append(Route.Route('blue', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (blue)
+        routes.append(Route.Route('red', 2, [listOfCities[4], listOfCities[3]], 0))  # Kiev (red)
 
 
         self.board = nx.Graph()
