@@ -76,20 +76,20 @@ class Beurt:
 
 
     def conquer_route(self, routeid):
+        print("Test")
         # Code routeInnemen
         # check_completed_route == true
         # Route ergens bijhouden bij Speler of Route
 
     def check_completed_route(self, routeid):
+        print("Test")
         # Code controleer of er een route voltooid is
         # If (kaarten van Speler kloppen om route in te nemen en nrOfBoxes klopt)
             # Route.isTaken == true
 
+
+
     # ================================================================================================
-
-
-
-
 
 
 # OUDE COMMENTS
