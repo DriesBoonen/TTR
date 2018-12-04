@@ -1,4 +1,3 @@
-# Michiel
 import Speler
 import CPUSpeler
 import GUI
@@ -27,7 +26,7 @@ class Beurt:
         # Treinkaarten en missiekaarten op begin van spel: constructor Speler
         player = Speler.Speler(0, name, age, color, startHand) # Menselijke speler altijd ID = 0 geven # Of Speler.Speler.__init__(...)
 
-        self.deck = TrainCards.TrainCards()
+        self.deck = TrainCards.TrainCards() # Deck treinkaarten
         self.missioncards = MissionCards.MissionCards()  # Deck missiekaarten
 
         #for i in range(aantalSpelers): # Niet nodig omdat je enkel aan player toekent
@@ -46,8 +45,7 @@ class Beurt:
         for i in range(0, 3):
             # cpu1, cpu2 en cpu3: werkt dit?
             # namen cpu's zitten in array: itereren over array?
-            d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN) # Eerste deel werkt
-                                                                                                           # #Willekeurige leeftijd tussen 10 en 99
+            d["cpu" + str(i+1)] = CPUSpeler.CPUSpeler(i+1, cpu_names[i], randint(10, 99), OVERIGE_KLEUREN) # Eerste deel werkt                                                                                               # #Willekeurige leeftijd tussen 10 en 99
 
         # 4 treinkaarten nemen om te starten (CPU)
         for k in range(len(d)):
@@ -78,20 +76,20 @@ class Beurt:
 
 
     def conquer_route(self, routeid):
+        print("Test")
         # Code routeInnemen
         # check_completed_route == true
         # Route ergens bijhouden bij Speler of Route
 
     def check_completed_route(self, routeid):
+        print("Test")
         # Code controleer of er een route voltooid is
         # If (kaarten van Speler kloppen om route in te nemen en nrOfBoxes klopt)
             # Route.isTaken == true
 
+
+
     # ================================================================================================
-
-
-
-
 
 
 # OUDE COMMENTS

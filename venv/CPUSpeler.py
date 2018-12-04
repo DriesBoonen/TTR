@@ -1,5 +1,6 @@
 import Speler
 from random import randint
+__metaclass__ = type
 
 class CPUSpeler(Speler):
     #def __init__(self, id, name, age, color, pawnnr, missionscomp, currmissions, isCPU, hand):
@@ -15,10 +16,9 @@ class CPUSpeler(Speler):
 
     # Michiel constructor
     # Age niet meegeven als argument in constructor CPU-Speler
-    def __init__(self, id, name, color):
+    def __init__(self, id, name, color): # Niet zeker van inheritance
         age = randint(10, 99)
-        Speler.__init__(self, id, name, age, color)
-        Speler.Speler.set_cpu_player(True) # Werkt dit?
+        super(CPUSpeler, self).__init__(self, id, name, age, color) # Correcte manier van inheritance in Python 2.7?
         self.hand = Counter(red=0, blue=0, green=0, black=0, white=0, yellow=0)  # Opvragen met hand['red']
 
 
@@ -37,16 +37,16 @@ class CPUSpeler(Speler):
         self.__name = name
 
     def set_age(self, age):
-            self.__age = age
+        self.__age = age
 
     def set_color(self, color):
-            self.__color = color
+        self.__color = color
 
     def set_pawnnr(self, pawnnr):
-            self.__pawnnr = pawnnr
+        self.__pawnnr = pawnnr
 
     def set_missionscomp(self, missionscomp):
-            self.__missionscomp = missionscomp
+        self.__missionscomp = missionscomp
 
     def set_currmissions(self, currmissions):
-            self.__currmissions = currmissions
+        self.__currmissions = currmissions
