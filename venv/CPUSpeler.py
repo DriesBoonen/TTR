@@ -2,7 +2,7 @@ import Speler
 from random import randint
 __metaclass__ = type
 
-class CPUSpeler(Speler):
+class CPUSpeler(Speler.Speler):
     #def __init__(self, id, name, age, color, pawnnr, missionscomp, currmissions, isCPU, hand):
         #Speler.__init__(self, id, name, age, color, pawnnr, missionscomp, currmissions, hand)
         #self.__isCPU = isCPU
