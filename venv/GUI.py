@@ -113,33 +113,29 @@ class GUI:
 
         board = nx.Graph()
 
-        #hahaha ik ben echt dom (Dries)
+        for city in listOfCities:
+            board.add_node(city)
+            print(city)
+
         for i in range(0, len(routes)):
           #                   # from city                # to city                  # path cost                      # color of path
           board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
+          #print(routes[i].getcities()[0] + " naar " + routes[i].getcities([1]))
 
         copyBoard = board.copy()
 
         pos = nx.spring_layout(board)
         nx.draw(board, pos)
+        nx.draw_networkx_nodes(board, pos, node_size=700)
         nx.draw_networkx_edge_labels(board, pos)
-        plt.ion()
-        plt.show()
-        plt.pause(10)
-        plt.close()
-        #for city in range(listOfCities):
-        #    self.bord.add_node(city)
 
-        #self.board.add_edge(listOfCities[1], listOfCities[0], weight = 1, edgeColors = ['yellow', 'red'])
-        #self.board.add_edge(listOfCities[0], listOfCities[2], weight=2, edgeColors=['blue', 'green'])
-        #self.board.add_edge(listOfCities[2], listOfCities[1], weight=1, edgeColors=['black'])
-        #self.board.add_edge(listOfCities[3], listOfCities[1], weight=3, edgeColors=['white'])
-        #self.board.add_edge(listOfCities[3], listOfCities[2], weight=1, edgeColors=['yellow'])
-        #self.board.add_edge(listOfCities[4], listOfCities[1], weight=2, edgeColors=['blue', 'yellow'])
-        #self.board.add_edge(listOfCities[4], listOfCities[3], weight=2, edgeColors=['red'])
+        plt.show()
+
 
 
 my_gui = GUI()
 
 while True:
     my_gui.initbord()
+
+
