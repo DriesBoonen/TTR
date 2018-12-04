@@ -1,4 +1,5 @@
 import networkx as nx #soort van graph waar we het spelbord van kunnen maken
+import pylab
 import Route
 import Speler
 import os
@@ -113,7 +114,15 @@ class GUI:
           #                   # from city                # to city                  # path cost                      # color of path
           self.board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
 
+        self.copyBoard = self.G.copy()
 
+        pos = nx.spring_layout(board)
+        nx.draw(board, pos)
+        nx.draw_networkx_edge_labels(board, pos)
+        pylab.ion()
+        pylab.show()
+        pylab.pause(pauseTime)
+        pylab.close()
         #for city in range(listOfCities):
         #    self.bord.add_node(city)
 
