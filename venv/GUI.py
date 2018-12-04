@@ -1,10 +1,14 @@
 import networkx as nx #soort van graph waar we het spelbord van kunnen maken
-import pylab
+
 import Route
 import Speler
 import os
 from Tkinter import *
 import tkMessageBox
+
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 
 
 class GUI:
@@ -107,22 +111,22 @@ class GUI:
         routes.append(Route.Route('red', 2, [listOfCities[4], listOfCities[3]], 0))  # Kiev (red)
 
 
-        self.board = nx.Graph()
+        board = nx.Graph()
 
         #hahaha ik ben echt dom (Dries)
         for i in range(0, len(routes)):
           #                   # from city                # to city                  # path cost                      # color of path
-          self.board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
+          board.add_edge(routes[i].get_cities()[0], routes[i].get_cities()[1], weight=routes[i].get_pathCost(), edgeColors=routes[i].get_color())
 
-        self.copyBoard = self.G.copy()
+        copyBoard = board.copy()
 
         pos = nx.spring_layout(board)
         nx.draw(board, pos)
         nx.draw_networkx_edge_labels(board, pos)
-        pylab.ion()
-        pylab.show()
-        pylab.pause(pauseTime)
-        pylab.close()
+        plt.ion()
+        plt.show()
+        plt.pause(10)
+        plt.close()
         #for city in range(listOfCities):
         #    self.bord.add_node(city)
 
