@@ -110,7 +110,6 @@ class GUI:
         routes.append(Route.Route('blue', 2, [listOfCities[4], listOfCities[1]], 0))  # Wenen (blue)
         routes.append(Route.Route('red', 2, [listOfCities[4], listOfCities[3]], 0))  # Kiev (red)
 
-
         board = nx.Graph()
 
         for city in listOfCities:
@@ -125,6 +124,24 @@ class GUI:
 
         copyBoard = board.copy()
 
+        pos = nx.spring_layout(board)
+
+        #nx.draw(board)
+        nx.draw_networkx_nodes(board, pos, node_size=700)
+        nx.draw_networkx_edge_labels(board, pos)
+
+        plt.axis('off')
+        plt.show()
+
+        return routes
+
+    def updatebord(self, routes):
+
+        for route in routes:
+          #                 # from city                # to city                  # path cost                      # color of path
+          board.add_edge(route.get_cities()[0], route.get_cities()[1], weight=route.get_pathCost(), edgeColors=route.get_color())
+
+        copyBoard = board.copy()
 
         pos = nx.spring_layout(board)
 
@@ -134,6 +151,7 @@ class GUI:
 
         plt.axis('off')
         plt.show()
+        return routes
 
 
 
