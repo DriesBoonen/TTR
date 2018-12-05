@@ -119,17 +119,18 @@ class GUI:
 
 
         for route in routes:
-          #                   # from city                # to city                  # path cost                      # color of path
+          #                 # from city                # to city                  # path cost                      # color of path
           board.add_edge(route.get_cities()[0], route.get_cities()[1], weight=route.get_pathCost(), edgeColors=route.get_color())
           print(route.get_cities()[0] + " naar " + route.get_cities()[1] +  " kleur " + route.get_color())
 
         copyBoard = board.copy()
 
+
         pos = nx.spring_layout(board)
 
-        nx.draw(board)
-        #nx.draw_networkx_nodes(board, pos, node_size=700)
-        #nx.draw_networkx_edge_labels(board, pos)
+        #nx.draw(board)
+        nx.draw_networkx_nodes(board, pos, node_size=700)
+        nx.draw_networkx_edge_labels(board, pos)
 
         plt.axis('off')
         plt.show()
@@ -140,5 +141,6 @@ my_gui = GUI()
 
 while True:
     my_gui.initbord()
+
 
 
