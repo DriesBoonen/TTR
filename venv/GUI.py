@@ -3,8 +3,8 @@ import networkx as nx #soort van graph waar we het spelbord van kunnen maken
 import Route
 import Speler
 import os
-from Tkinter import *
-import tkMessageBox
+from tkinter import *
+import tkinter.messagebox
 
 import matplotlib
 matplotlib.use('TkAgg')
